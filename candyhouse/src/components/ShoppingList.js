@@ -1,4 +1,5 @@
 import { candyList } from '../datas/candyList'
+import '../styles/ShoppingList.css'
 
 function ShoppingList() {
 	const categories = candyList.reduce(
@@ -14,9 +15,11 @@ function ShoppingList() {
 					<li key={cat}>{cat}</li>
 				))}
 			</ul>
-			<ul>
+			<ul className='ch-candy-list'>
 				{candyList.map((candy) => (
-					<li key={candy.id}>{candy.name}</li>
+					<li key={candy.id} className='ch-candy-item'>
+						{candy.name}
+					</li>
 				))}
 			</ul>
 		</div>
