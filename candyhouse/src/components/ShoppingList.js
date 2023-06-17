@@ -1,4 +1,5 @@
 import { candyList } from '../datas/candyList'
+import CandyItem from './CandyItems'
 import '../styles/ShoppingList.css'
 
 function ShoppingList() {
@@ -9,17 +10,19 @@ function ShoppingList() {
 	)
 
 	return (
-		<div>
+		<div className='ch-shopping-list'>
 			<ul>
 				{categories.map((cat) => (
 					<li key={cat}>{cat}</li>
 				))}
 			</ul>
 			<ul className='ch-candy-list'>
-				{candyList.map((candy) => (
-					<li key={candy.id} className='ch-candy-item'>
-						{candy.name}
-					</li>
+				{candyList.map(({ id, cover, name }) => (
+					<CandyItem
+						key={id}
+						cover={cover}
+						name={name}
+					/>
 				))}
 			</ul>
 		</div>
