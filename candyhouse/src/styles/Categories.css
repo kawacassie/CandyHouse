@@ -1,0 +1,14 @@
+.ch-categories {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.ch-categories-select {
+	margin-right: 15px;
+	border-radius: 15px; 
+	padding: 8px 15px;
+	border-color: rgb(103, 0, 103);
+	background-color: rgb(247, 219, 223);
+	color: rgb(103, 0, 103);
+	font-weight: bold;
+}

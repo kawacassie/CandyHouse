@@ -12,57 +12,66 @@ import chamallow from  '../assets/chamallow.jpg'
 
 export const candyList = [
 	{
-		name: 'sucette rouge',
-		category: 'sucette',
+		name: 'Sucette Rouge (Par 3)',
+		category: 'Sucette',
 		id: '1ed',
-		cover : sucetterouge
+		cover : sucetterouge,
+		price : 3
 	},
 	{
-		name: 'mega roll',
-		category: 'chewing-gum',
+		name: 'Mega Roll (L\'unité)',
+		category: 'Chewing-gum',
 		id: '2ab',
-		cover : megaroll
+		cover : megaroll,
+		price : 2
 	},
 	{
-		name: 'chocolat noir',
-		category: 'chocolat',
+		name: 'Chocolat Noir',
+		category: 'Chocolat',
 		id: '3sd',
-		cover : chocolatnoir
+		cover : chocolatnoir, 
+		price : 12
 	},
 	{
-		name: 'carambar fruits',
-		category: 'classique',
+		name: 'Carambar Fruits (Par 10)',
+		category: 'Classique',
 		id: '4kk',
-		cover : carambarfruits
+		cover : carambarfruits, 
+		price : 4
 	},
 	{
-		name: 'chocolat au lait',
-		category: 'chocolat',
+		name: 'Chocolat Au Lait',
+		category: 'Chocolat',
 		id: '5pl',
-		cover : chocolatlait
+		cover : chocolatlait,
+		price : 14
 	},
 	{
-		name: 'rouleau réglisse',
-		category: 'classique',
+		name: 'Rouleau Réglisse (Par 5)',
+		category: 'Classique',
 		id: '6uo', 
-		cover : rouleaureglisse
+		cover : rouleaureglisse,
+		price : 3
 	},
 	{
-		name: 'sucette coeur',
-		category: 'sucette',
+		name: 'Sucette Coeur (Par 2)',
+		category: 'Sucette',
 		id: '7ie', 
-		cover : sucettecoeur
+		cover : sucettecoeur,
+		price : 8
 	},
 	{
-		name: 'tubble gum',
-		category: 'chewing-gum',
+		name: 'Tubble Gum',
+		category: 'Chewing-gum',
 		id: '8fp',
-		cover : tubblegum
+		cover : tubblegum, 
+		price : 6
 	},
 	{
-		name: 'chamallow',
-		category: 'classique',
+		name: 'Chamallow (300g)',
+		category: 'Classique',
 		id: '9vn',
-		cover : chamallow
+		cover : chamallow, 
+		price : 4
 	}
 ]
