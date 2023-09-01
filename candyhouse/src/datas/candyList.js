@@ -41,7 +41,7 @@ export const candyList = [
 		id: '4kk',
 		cover : carambarfruits, 
 		price : 4, 
-		descritpion : 'Découvrez le plaisir nostalgique des Carambars aux fruits. Ce lot de dix vous permet de profiter de ces délices à la fois tendres et savoureux, parfaits pour les moments gourmands.'
+		description : 'Découvrez le plaisir nostalgique des Carambars aux fruits. Ce lot de dix vous permet de profiter de ces délices à la fois tendres et savoureux, parfaits pour les moments gourmands.'
 	},
 	{
 		name: 'Chocolat Au Lait',

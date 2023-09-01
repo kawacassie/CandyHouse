@@ -1,0 +1,41 @@
+.ch-candy-detail {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.ch-candy-detail img {
+	height: 250px;
+	width: 250px;
+	border-radius: 20px;
+	object-fit: cover;
+}
+
+.ch-candy-detail h2 {
+    color: rgb(103, 0, 103);
+}
+
+.ch-candy-detail p {
+	font-size: 18px;
+    text-align: center;
+}
+
+.ch-candy-detail-price {
+	font-weight: 500;
+	border-radius: 20px 20px 20px 0;
+	background-color: palevioletred;
+	color: white;
+	padding: 15px;
+	right: 0;
+}
+
+.ch-candy-detail-description {
+	font-weight: 500;
+	border-radius: 20px 20px 0 20px;
+	background-color: palevioletred;
+	color: white;
+	padding: 15px;
+    width: 500px;
+}
